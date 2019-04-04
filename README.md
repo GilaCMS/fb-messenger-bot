@@ -1,7 +1,7 @@
 # fb-messenger-bot
 A simple Messenger Bot that uses regex expressions
 
-This is a package for (Gila CMS)[https://github.com/GilaCMS/gila]
+This is a package for [Gila CMS](https://github.com/GilaCMS/gila)
 
 # Templates responses
 Direct Message
