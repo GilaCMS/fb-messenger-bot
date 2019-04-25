@@ -3,7 +3,11 @@ A simple Messenger Bot that uses regex expressions
 
 This is a package for [Gila CMS](https://github.com/GilaCMS/gila)
 
+Logo from [pixabay](https://pixabay.com/illustrations/bot-icon-robot-automated-cyborg-2883144/)
+
 # Templates responses
+Responses can be added in answers.php
+
 Direct Message
 ```
 return [ 'text' => "Hello" ];
