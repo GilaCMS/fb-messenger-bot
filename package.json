@@ -1,11 +1,11 @@
 {
-	"name":"Messenger Bot",
-	"version":"1.0.0",
-	"description":"A simple Messenger Bot that uses regex expressions",
-	"options": {
+  "name":"Messenger Bot",
+  "version":"1.0.0",
+  "description":"A simple Messenger Bot that uses regex expressions",
+  "options": {
     "verifyToken":{
       "required": true
     },
     "accessToken":[]
-	}
+  }
 }
