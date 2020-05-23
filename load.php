@@ -1,6 +1,6 @@
 <?php
 
-gila::route('messenger-bot', function() {
+Gila::route('messenger-bot', function() {
   global $bot;
   include_once(__DIR__."/MessengerBot.php");
   $bot = new MessengerBot();

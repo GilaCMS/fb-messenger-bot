@@ -12,8 +12,8 @@ class MessengerBot {
 
   function response()
   {
-    $hubVerifyToken = gila::option('fb-messenger-bot.verifyToken');
-    $accessToken = gila::option('fb-messenger-bot.accessToken');
+    $hubVerifyToken = Gila::option('fb-messenger-bot.verifyToken');
+    $accessToken = Gila::option('fb-messenger-bot.accessToken');
 
     if ($_REQUEST['hub_verify_token'] === $hubVerifyToken) {
       echo $_REQUEST['hub_challenge'];
@@ -28,7 +28,7 @@ class MessengerBot {
     $messageText = $input['entry'][0]['messaging'][0]['message']['text'];
     $response = null;
 
-    if(gila::option('fb-messenger-bot.log',0)==1) {
+    if(Gila::option('fb-messenger-bot.log',0)==1) {
       $logger = new logger('fb-messenges.log');
       $logger->log($senderId, $messageText);
     }
@@ -76,4 +76,3 @@ class MessengerBot {
   }
 
 }
-
